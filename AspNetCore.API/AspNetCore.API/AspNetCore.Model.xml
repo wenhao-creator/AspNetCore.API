@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspNetCore.Model</name>
+    </assembly>
+    <members>
+        <member name="T:AspNetCore.Model.Company">
+            <summary>
+            公司 实体类
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Company.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Company.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Company.CreateTime">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Company.CreatorId">
+            <summary>
+            创造者Id
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Company.LastModifierId">
+            <summary>
+            最后的修饰符Id
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Company.LastModifyTime">
+            <summary>
+            最后时间
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Company.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:AspNetCore.Model.Page">
+            <summary>
+            分页参数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Page.PageIndex">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Page.PageSize">
+            <summary>
+            每页条数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Page.PageCount">
+            <summary>
+            总条数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.Page.PageToal">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.TPageResult`1.PageIndex">
+            <summary>
+            当前页数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.TPageResult`1.PageSize">
+            <summary>
+            每页条数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.TPageResult`1.PageCount">
+            <summary>
+            总条数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.TPageResult`1.PageTotal">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.TPageResult`1.Success">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:AspNetCore.Model.WeatherForecast">
+            <summary>
+            天气预报
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.WeatherForecast.Date">
+            <summary>
+            日期
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.WeatherForecast.TemperatureC">
+            <summary>
+            摄氏度
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.WeatherForecast.TemperatureF">
+            <summary>
+            华氏度
+            </summary>
+        </member>
+        <member name="P:AspNetCore.Model.WeatherForecast.Summary">
+            <summary>
+            说明
+            </summary>
+        </member>
+    </members>
+</doc>

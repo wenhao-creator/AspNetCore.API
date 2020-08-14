@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspNetCore.API</name>
+    </assembly>
+    <members>
+        <member name="T:AspNetCore.API.Authorization.JwtHellper">
+            <summary>
+            Jwt 辅助类
+            </summary>
+        </member>
+        <member name="M:AspNetCore.API.Authorization.JwtHellper.IssueJwt(AspNetCore.API.Model.Token)">
+            <summary>
+            获取Token
+            </summary>
+            <param name="token">Token令牌</param>
+            <returns></returns>
+        </member>
+        <member name="M:AspNetCore.API.Authorization.JwtHellper.SerializeJwt(System.String)">
+            <summary>
+            解析Token
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AspNetCore.API.Controllers.AuthJwtConreoller">
+            <summary>
+            Auth 控制器
+            </summary>
+        </member>
+        <member name="M:AspNetCore.API.Controllers.AuthJwtConreoller.LoginValidate(AspNetCore.API.Model.LoginModelView)">
+            <summary>
+            账号登陆
+            </summary>
+            <param name="loginModel"></param>
+            <returns>token</returns>
+        </member>
+        <member name="M:AspNetCore.API.Controllers.AuthJwtConreoller.ParseToken">
+            <summary>
+            token 解析
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AspNetCore.API.Controllers.BaseController">
+            <summary>
+            Base 控制器
+            </summary>
+        </member>
+        <member name="T:AspNetCore.API.Controllers.CompanyController">
+            <summary>
+             Company （公司）控制器
+            </summary>
+        </member>
+        <member name="M:AspNetCore.API.Controllers.CompanyController.GetCompanyPage(AspNetCore.Model.Page)">
+            <summary>
+            获取 company 分页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AspNetCore.API.Controllers.WeatherForecastController">
+            <summary>
+            天气状况 API
+            </summary>
+        </member>
+        <member name="M:AspNetCore.API.Controllers.WeatherForecastController.Get">
+            <summary>
+            获取未来五天的天气
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AspNetCore.API.Model.LoginModelView">
+            <summary>
+            Login视图模型
+            </summary>
+        </member>
+        <member name="P:AspNetCore.API.Model.LoginModelView.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:AspNetCore.API.Model.LoginModelView.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:AspNetCore.API.Model.LoginModelView.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="T:AspNetCore.API.Model.Token">
+            <summary>
+            Token 令牌
+            </summary>
+        </member>
+        <member name="P:AspNetCore.API.Model.Token.Uid">
+            <summary>
+            Uid
+            </summary>
+        </member>
+        <member name="P:AspNetCore.API.Model.Token.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="T:AspNetCore.API.SetUpService.AutofacModuleRegister">
+            <summary>
+            Autofac 模块注册
+            </summary>
+        </member>
+        <member name="M:AspNetCore.API.SetUpService.AutofacModuleRegister.Load(Autofac.ContainerBuilder)">
+            <summary>
+             重写Load函数
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="T:AspNetCore.API.SetUpService.JwtService">
+            <summary>
+            Jwt 注册服务类
+            </summary>
+        </member>
+        <member name="M:AspNetCore.API.SetUpService.JwtService.AddJwt(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Jwt 注册服务
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:AspNetCore.API.SetUpService.SwaggerService">
+             <summary>
+             Swagger API文档管理
+            
+              1.可以在代码中添加注释，且自动生成API文档，无需再次编写，友好的界面让API文档更易懂。
+              2.一站式服务，只需要访问swagger的地址，就可以看到所有的后台接口和功能，并且能测试接口状态，真正是彻底的前后端分离了。
+              3.内嵌调试，可以查看接口状态和返回值结果很方便。
+             </summary>
+        </member>
+        <member name="M:AspNetCore.API.SetUpService.SwaggerService.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            注册 Swagger 服务
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:AspNetCore.API.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+             注册Autofac容器
+            </summary>
+            <param name="builder"></param>
+        </member>
+    </members>
+</doc>
